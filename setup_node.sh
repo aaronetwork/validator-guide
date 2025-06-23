@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 echo "=== Creating 6G swap ==="
 fallocate -l 6G /swapfile
@@ -29,7 +30,7 @@ cd ..
 rm -rf cli
 
 # Add go bin to PATH if not already present
-if ! grep -q "\$HOME/go/bin" ~/.bashrc; then
+if ! grep -q "$HOME/go/bin" ~/.bashrc; then
   echo 'export PATH=$HOME/go/bin:$PATH' >> ~/.bashrc
 fi
 export PATH=$HOME/go/bin:$PATH
