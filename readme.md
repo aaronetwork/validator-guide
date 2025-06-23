@@ -1,11 +1,12 @@
 ## ⚙️ 1. Minimum Requirement
 
 | Parameter | Minimum Requirement |
-|----------|---------------------|
-| CPU      | 1 core              |
-| RAM      | 2 GB                |
-| Storage  | 40 GB               |
-| Traffic  | 32 TB               |
+|-----------|---------------------|
+| OS        | Ubuntu 24.04        |
+| CPU       | 1 core              |
+| RAM       | 2 GB                |
+| Storage   | 40 GB               |
+| Traffic   | 32 TB               |
 
 ## 🚀 2. Automatic Installation (Recommended)
 
