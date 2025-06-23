@@ -1,4 +1,4 @@
-### Minimum Requirement
+## ⚙️ 1. Minimum Requirement
 
 | Parameter | Minimum Requirement |
 |----------|---------------------|
@@ -6,6 +6,23 @@
 | RAM      | 2 GB                |
 | Storage  | 40 GB               |
 | Traffic  | 32 TB               |
+
+## 🚀 2. Automatic Installation (Recommended)
+
+You can install and configure your node automatically using our installation script.
+
+Just run the following command:
+
+`curl -s https://raw.githubusercontent.com/aaronetwork/validator-guide/refs/heads/main/setup_node.sh | bash`
+
+This script will:
+- Set up swap memory
+- Install Go and Ignite CLI
+- Clone the blockchain repository and build the chain
+- Initialize and configure the node
+- Set up and start the systemd service
+
+## 🛠️ 3. Manual Installation
 
 ### Create swap
 
@@ -54,10 +71,6 @@ Add to end line:
 source ~/.bashrc
 ignite version
 ```
-
-### SSH key
-
-`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 ### Clone repo
 
