@@ -13,7 +13,11 @@ You can install and configure your node automatically using our installation scr
 
 Just run the following command:
 
-`curl -s https://raw.githubusercontent.com/aaronetwork/validator-guide/refs/heads/main/setup_node.sh | bash`
+```shell
+curl -O https://raw.githubusercontent.com/aaronetwork/validator-guide/refs/heads/main/setup_node.sh
+chmod +x setup_node.sh
+./setup_node.sh
+```
 
 This script will:
 - Set up swap memory

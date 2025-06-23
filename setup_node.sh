@@ -25,7 +25,7 @@ echo "=== Installing Ignite CLI ==="
 git clone https://github.com/ignite/cli.git
 cd cli
 git checkout v28.5.3
-go install ./ignite/cmd/ignite --no
+go install ./ignite/cmd/ignite
 cd ..
 rm -rf cli
 
